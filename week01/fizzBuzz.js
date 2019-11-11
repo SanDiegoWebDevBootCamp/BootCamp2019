@@ -5,6 +5,9 @@ function getRandomInt(max) {
 const isMultipleOfThree = (number) => number % 3 === 0
 const isMultipleOfFive = (number) => number % 5 === 0
 
+// && logical AND
+// || logical OR
+
 function printFizzBuzz(number) {
     if (isMultipleOfFive(number) && isMultipleOfThree(number)) {
         console.log('FizzBuzz')
