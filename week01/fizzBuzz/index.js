@@ -1,6 +1,4 @@
-function getRandomInt(max) {
-  return Math.floor(Math.random() * Math.floor(max));
-}
+const { getRandomInt, foo } = require('./randomNumberGenerator');
 
 function isMultipleOfThree (number) {
     return number % 3 === 0
@@ -32,3 +30,4 @@ for (i = 0; i < numbers.length; i++) {
     const number = numbers[i]
     printFizzBuzz(number)
 }
+
